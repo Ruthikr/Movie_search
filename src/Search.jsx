@@ -26,7 +26,7 @@ function Search() {
     setIsLoading(true);
 
     try {
-      const response = await axios.get('http://127.0.0.1:5000/search', {
+      const response = await axios.get('https://22e1-2401-4900-4e25-c192-b975-e7ee-a6c-8797.ngrok-free.app/search', {
         params: { query: query.trim() },
       });
 
